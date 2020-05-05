@@ -1,0 +1,15 @@
+def fabonacci(n):
+   if n <= 1:
+       return n
+   else:
+       return(fabonacci(n-1) + fabonacci(n-2))
+
+k = 10
+
+# check if the number of terms is valid
+if k <= 0:
+   print("Plese enter a positive integer")
+else:
+   print("Fibonacci sequence:")
+   for i in range(k):
+       print(fabonacci(i))
