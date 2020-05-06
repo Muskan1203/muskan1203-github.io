@@ -1,0 +1,12 @@
+#deleting different dictionary elements
+mydict={
+    "Maths":"easy",
+    "Physics":"moderate",
+    "Chemistry":"tough",
+    "English":"very easy"
+}
+print(mydict)
+del mydict["English"]
+print(mydict)
+del mydict["Chemistry"]
+print(mydict)
